@@ -1,0 +1,187 @@
+/*Navigation css*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+
+}
+
+#logo{
+    margin:5px 25px ;
+    padding: 10px 10px;
+}
+
+#logo img{
+    height: 60px;
+    margin: -18px -46px;
+    padding: 5px 12px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a{
+    color: aliceblue;
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background: white;
+}
+
+
+/*Home section*/
+
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#home::before{
+    content: "";
+    background: url('bg2.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    width: 100%;
+    opacity: 0.90;
+    padding-top: 70px;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: -2px;
+   
+}
+
+#h-primary{
+    font-size: 3.0rem;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+.h-seconary{
+    font-size: 2.8rem;
+    padding: 10px;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.center{
+    text-align: center;
+}
+
+/*Services section*/
+
+
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    margin: -125px 57px;
+    padding-top: 18px;
+    padding-bottom: 5px;
+    background-color: rgb(244 230 230);
+    
+
+}
+
+#services .box img{
+    height: 180px;
+    display: block;
+    margin: auto;
+    
+
+}
+
+#h1{
+    font-size: 3.0rem;
+    margin: 155px 50px;
+    font-weight: bold;
+}
+
+
+/*Client Section*/
+
+#clients{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+
+#h11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 115px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#client-section::before{
+    content: "";
+    background: url('bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 30%;
+    width: 100%;
+    opacity: 0.3;
+    padding: 135px 0px;
+    margin:200px -10px
+}
+
+.client-item{
+    padding: 10px 40px;
+    mix-blend-mode: multiply;
+
+}
+
+
