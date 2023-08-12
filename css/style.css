@@ -109,6 +109,7 @@
 
 .center{
     text-align: center;
+    font-size: 3rem;
 }
 
 /*Services section*/
@@ -174,7 +175,7 @@
     height: 30%;
     width: 100%;
     opacity: 0.3;
-    padding: 135px 0px;
+    padding: 120px 0px;
     margin:200px -10px
 }
 
@@ -184,4 +185,57 @@
 
 }
 
+/*Contact-section*/
 
+#contact{
+    position: relative;
+    margin: -7px;
+    padding: 110px 0px;
+}
+
+#contact::before{
+    content: "";
+    background: url('contact.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -1;
+    height: 76%;
+    width: 100%;
+    opacity: 0.3;
+
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 130px;
+    padding: 10px 45px;
+    margin: 7px 8px;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: black;
+    color: white;
+    margin: -61px -7px;
+    padding: 22px 19px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+}
